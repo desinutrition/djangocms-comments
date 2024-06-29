@@ -9,7 +9,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from cms.models.pluginmodel import CMSPlugin
 from django.template.defaultfilters import truncatechars
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 MODERATED = [
     ('spam', _('Spam')),

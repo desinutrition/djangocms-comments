@@ -4,7 +4,7 @@ from django.contrib.auth import get_user_model
 from django.core.exceptions import ValidationError
 from django.forms import ModelForm, CharField, EmailField, URLField, IntegerField
 from django.forms.widgets import Textarea
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from djangocms_comments import settings
 from djangocms_comments.models import AnonymousAuthor, CommentsConfig

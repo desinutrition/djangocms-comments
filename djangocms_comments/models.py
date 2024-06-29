@@ -40,7 +40,7 @@ class CommentsCMSPlugin(CMSPlugin):
     # avoid reverse relation name clashes by not adding a related_name
     # to the parent plugin
 
-    config = models.ForeignKey(CommentsConfig)
+    config = models.ForeignKey(CommentsConfig, on_delete=models.CASCADE)
 
     class Meta:
         abstract = True

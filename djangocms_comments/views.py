@@ -1,6 +1,6 @@
 from django.core.mail import send_mail
 from django.shortcuts import redirect, render
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.views.generic.edit import FormView
 
 from djangocms_comments import settings

@@ -8,7 +8,7 @@ from django.template.defaultfilters import truncatechars
 from django.utils.html import escape
 from django.utils.safestring import mark_safe
 from django.utils.timesince import timesince
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from djangocms_comments import settings
 from djangocms_comments.fields import SubmitButtonField, MultipleSubmitButtonRendered, MultipleSubmitButton, \
